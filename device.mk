@@ -411,7 +411,8 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.recovery.qcom.rc \
     init.recovery.qcom.usb.rc \
-    init.daisy.rc
+    init.daisy.rc \
+    init.safailnet.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh \
