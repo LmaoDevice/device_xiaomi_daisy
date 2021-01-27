@@ -15,9 +15,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_daisy.mk
+    $(LOCAL_DIR)/aosp_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_daisy-user \
-    derp_daisy-userdebug \
-    derp_daisy-eng
+    aosp_daisy-user \
+    aosp_daisy-userdebug \
+    aosp_daisy-eng
