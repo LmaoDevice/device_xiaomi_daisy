@@ -506,6 +506,7 @@ VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
 # VNDK
 PRODUCT_PACKAGES += \
+    vndk_package \
     libstdc++.vendor \
     libcutils.so \
     com.android.vndk.current.on_vendor
