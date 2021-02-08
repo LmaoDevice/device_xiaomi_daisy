@@ -225,6 +225,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # Sepolicy
