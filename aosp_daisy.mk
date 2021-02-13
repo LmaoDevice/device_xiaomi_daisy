@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
 # Inherit from aosp vendor
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
